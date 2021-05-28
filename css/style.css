@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .players{
     background-image: url(../img/dadi-su-spiaggia.jpg);
     background-size: cover;
@@ -15,3 +19,40 @@
 .players-text{
     color: white;
 }
+
+.players-text h1{
+    font-size: 67px;
+    text-align: center;
+}
+
+.dice-container{
+    width: 60%;
+    margin: 100px auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.utente, .pc{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.utente, .pc{
+    float: left;
+    width: 50%;
+}
+
+.risultato{
+    color: crimson;
+    font-weight: 600;
+    font-size: 50px;    
+    text-align: center;
+}
+
+
+

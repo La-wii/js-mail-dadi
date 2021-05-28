@@ -19,8 +19,8 @@ if (computer > giocatore) {
 }
 
 
-document.getElementById('tu').innerHTML = 'il tuo dado :' + giocatore;
-document.getElementById('computer').innerHTML = 'il dado del computer :' + computer;
+document.getElementById('tu').innerHTML = 'Il tuo dado : ' + giocatore;
+document.getElementById('computer').innerHTML = 'Il dado del computer : ' + computer;
 document.getElementById('chihavinto').innerHTML = vincitore;
 
 
